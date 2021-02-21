@@ -1,0 +1,66 @@
+/* Section 2 */
+
+.second-section {
+  padding-top: 79px;
+  padding-bottom: 79px;
+}
+
+.strengths-position {
+  display: flex;
+  justify-content: center;
+}
+
+.strengths-item {
+  width: 270px;
+  margin: 15px;
+}
+
+.strengths-bg {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 270px;
+  height: 120px;
+  padding: 25px 102px;
+  background-color: var(--team-background-color);
+  border-radius: 4px;
+}
+
+.strengths-title {
+  width: 270px;
+  height: 16px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.strengths-text {
+  margin-top: 10px;
+  width: 270px;
+  height: 75px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
+}
+
+/* Внимание к деталям */
+
+.text-at {
+  max-width: 220px;
+}
+
+.text-pt {
+  max-width: 240px;
+}
+
+.text-pl {
+  max-width: 230px;
+}
+
+.text-mt {
+  max-width: 250px;
+}

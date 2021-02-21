@@ -1,0 +1,142 @@
+/* Footer */
+
+.footer-section {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--order-background-color);
+}
+
+.footer {
+  display: flex;
+}
+
+.footer-left {
+  padding-left: 15px;
+}
+
+.footer-position {
+  margin-top: 9px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: auto;
+
+  &:first-child {
+    margin-top: 20px;
+  }
+}
+
+.footer-item {
+  text-decoration: none;
+  width: 231px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+
+.maps-ft {
+  color: var(--header-background-color);
+}
+
+.mail-ft,
+.tel-ft {
+  color: var(--footer-address-color);
+}
+
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  width: 206px;
+  height: 80px;
+}
+
+.footer-join {
+  width: 145px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--header-background-color);
+  text-transform: uppercase;
+}
+
+.list-ft {
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.link-bg-ft {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-bg-ft {
+  fill: var(--header-background-color);
+}
+
+.icons-position-ft:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  padding-right: 15px;
+}
+
+.footer-subscribe-title {
+  width: 219px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--header-background-color);
+  text-transform: uppercase;
+}
+
+.footer-form {
+  display: flex;
+  margin-top: 20px;
+
+  & .input-mail {
+    min-width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    background-color: transparent;
+    color: var(--header-background-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+}
+
+.subscribe-btn-ft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  cursor: pointer;
+  padding: 10px 29px;
+  min-width: 200px;
+  height: 50px;
+  @extend %font;
+  line-height: 1.88;
+  text-align: center;
+  background-color: var(--accent-text-color);
+  color: var(--header-background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.footer-telegram-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
