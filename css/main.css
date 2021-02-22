@@ -26,8 +26,7 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1,
@@ -80,15 +79,9 @@ button :hover {
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* WebStudio-header */
@@ -125,8 +118,6 @@ button :hover {
 
 /* Navigation */
 .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-left: 15px;
 }
@@ -151,7 +142,6 @@ button :hover {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  -webkit-transition: color var(--animation);
   transition: color var(--animation);
 }
 
@@ -189,8 +179,6 @@ button :hover {
 /* Contacts mail+tel */
 .contacts-list {
   margin-left: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-right: 15px;
 }
@@ -205,7 +193,6 @@ button :hover {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  -webkit-transition: color var(--animation);
   transition: color var(--animation);
 }
 
@@ -216,7 +203,6 @@ button :hover {
   vertical-align: middle;
   fill: var(--primary-text-color);
   margin-right: 10px;
-  -webkit-transition: fill var(--animation);
   transition: fill var(--animation);
 }
 
@@ -227,7 +213,6 @@ button :hover {
   vertical-align: middle;
   fill: var(--primary-text-color);
   margin-right: 10px;
-  -webkit-transition: fill var(--animation);
   transition: fill var(--animation);
 }
 
@@ -261,8 +246,7 @@ button :hover {
   line-height: 1.87;
   background-color: var(--accent-text-color);
   color: var(--header-background-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 1px solid transparent;
 }
@@ -270,28 +254,17 @@ button :hover {
 .social-list {
   max-width: 206px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .social-list-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  -webkit-transition: background-color var(--animation);
   transition: background-color var(--animation);
 }
 
@@ -303,7 +276,6 @@ button :hover {
   width: 20px;
   height: 20px;
   fill: var(--links-background-color);
-  -webkit-transition: fill var(--animation);
   transition: fill var(--animation);
 }
 
@@ -322,8 +294,6 @@ button :hover {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -362,13 +332,8 @@ button :hover {
 }
 
 .footer-middle {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-left: 70px;
   width: 206px;
   height: 80px;
@@ -404,13 +369,8 @@ button :hover {
 }
 
 .footer-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-left: auto;
   padding-right: 15px;
 }
@@ -427,8 +387,6 @@ button :hover {
 }
 
 .footer-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
 }
@@ -440,21 +398,14 @@ button :hover {
   background-color: transparent;
   color: var(--header-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
 
 .subscribe-btn-ft {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-left: 12px;
   cursor: pointer;
   padding: 10px 29px;
@@ -464,8 +415,7 @@ button :hover {
   text-align: center;
   background-color: var(--accent-text-color);
   color: var(--header-background-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
@@ -484,7 +434,6 @@ button :hover {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  -webkit-transition: opacity var(--animation);
   transition: opacity var(--animation);
 }
 
@@ -494,25 +443,20 @@ button :hover {
 }
 
 .backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(0.5);
-          transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.5);
 }
 
 .modal {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
   background-color: var(--header-background-color);
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  -webkit-transform: scale(1) translate(-50%, -50%);
-          transform: scale(1) translate(-50%, -50%);
-  -webkit-transition: var(--animation);
+  transform: scale(1) translate(-50%, -50%);
   transition: var(--animation);
 }
 
@@ -525,7 +469,6 @@ button :hover {
   right: 17px;
   vertical-align: middle;
   fill: var(--vector-color);
-  -webkit-transition: var(--animation);
   transition: var(--animation);
 }
 
@@ -542,15 +485,9 @@ button :hover {
   padding: 9px;
   width: 30px;
   height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -583,13 +520,8 @@ button :hover {
 }
 
 .form-field {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-top: 10px;
   font-size: 12px;
   line-height: 1.17;
@@ -608,7 +540,6 @@ button :hover {
   border-radius: 4px;
   width: 100%;
   cursor: pointer;
-  -webkit-transition: var(--animation);
   transition: var(--animation);
 }
 
@@ -626,29 +557,7 @@ button :hover {
   border-radius: 4px;
   resize: none;
   cursor: pointer;
-  -webkit-transition: var(--animation);
   transition: var(--animation);
-}
-
-.form-field textarea ::-webkit-input-placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.form-field textarea :-ms-input-placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.form-field textarea ::-ms-input-placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .form-field textarea ::placeholder {
@@ -666,7 +575,6 @@ button :hover {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-transition: var(--animation);
   transition: var(--animation);
   overflow: hidden;
 }
@@ -686,7 +594,6 @@ button :hover {
   margin-right: 7px;
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
-  -webkit-transition: var(--animation);
   transition: var(--animation);
 }
 
@@ -695,10 +602,8 @@ button :hover {
   width: 14px;
   height: 14px;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   left: 12px;
-  -webkit-transition: var(--animation);
   transition: var(--animation);
 }
 
@@ -712,12 +617,8 @@ button :hover {
 
 .checkbox-label {
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   white-space: nowrap;
   font-size: 14px;
   line-height: 1.71;
@@ -731,8 +632,6 @@ button :hover {
 }
 
 .button-field {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -748,21 +647,15 @@ button :hover {
   color: var(--header-background-color);
   border: 1px solid var(--accent-text-color);
   border-radius: 4px;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  -webkit-transition: background-color var(--animation), color var(--animation);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color var(--animation), color var(--animation);
 }
 
 /* Portfolio cards */
 .card-set {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
+  flex-wrap: wrap;
+  align-content: stretch;
   margin: -15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -775,15 +668,11 @@ button :hover {
   text-decoration: none;
   background: var(--header-background-color);
   border: 1px solid var(--portfolio-border-color);
-  -webkit-transition: -webkit-box-shadow var(--animation);
-  transition: -webkit-box-shadow var(--animation);
   transition: box-shadow var(--animation);
-  transition: box-shadow var(--animation), -webkit-box-shadow var(--animation);
 }
 
 .card:hover, .card:focus-within {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-box {
@@ -803,18 +692,13 @@ button :hover {
   height: 100%;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
-  -webkit-transform: translatey(100%);
-          transform: translatey(100%);
-  -webkit-transition: -webkit-transform var(--animation);
-  transition: -webkit-transform var(--animation);
+  transform: translatey(100%);
   transition: transform var(--animation);
-  transition: transform var(--animation), -webkit-transform var(--animation);
 }
 
 .card:hover .overlay-box,
 .card:focus-within .overlay-box {
-  -webkit-transform: translatey(0);
-          transform: translatey(0);
+  transform: translatey(0);
 }
 
 .overlay-box > .overlay-text {
@@ -855,7 +739,6 @@ button :hover {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--order-background-color);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("./studio_bg_img.jpg");
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./studio_bg_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -882,12 +765,8 @@ button :hover {
 }
 
 .strengths-position {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .strengths-item {
@@ -896,12 +775,8 @@ button :hover {
 }
 
 .strengths-bg {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 0 auto;
   width: 270px;
   height: 120px;
@@ -931,23 +806,6 @@ button :hover {
   color: var(--primary-text-color);
 }
 
-/* Внимание к деталям */
-.text-at {
-  max-width: 220px;
-}
-
-.text-pt {
-  max-width: 240px;
-}
-
-.text-pl {
-  max-width: 230px;
-}
-
-.text-mt {
-  max-width: 250px;
-}
-
 /* Section 3 */
 .third-section {
   padding-top: 0px;
@@ -975,8 +833,6 @@ button :hover {
 }
 
 .activity-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 35px;
 }
@@ -1024,16 +880,9 @@ button :hover {
 }
 
 .team-position {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
@@ -1043,8 +892,7 @@ button :hover {
   margin: 15px;
   padding-bottom: 30px;
   background: var(--header-background-color);
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -1084,31 +932,20 @@ button :hover {
 }
 
 .clients-position {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 35px;
 }
 
 .clients-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   margin: 15px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  -webkit-transition: border-color var(--animation);
   transition: border-color var(--animation);
 }
 
@@ -1120,7 +957,6 @@ button :hover {
   width: 89px;
   height: 50px;
   fill: var(--links-background-color);
-  -webkit-transition: fill var(--animation);
   transition: fill var(--animation);
 }
 
@@ -1138,12 +974,8 @@ button :hover {
 
 /* Portfolio navigation buttons */
 .btn-position {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -1159,18 +991,14 @@ button :hover {
   color: var(--title-text-color);
   border-radius: 4px;
   border: 1px solid transparent;
-  -webkit-transition: background-color, color, -webkit-box-shadow var(--animation);
-  transition: background-color, color, -webkit-box-shadow var(--animation);
   transition: background-color, color, box-shadow var(--animation);
-  transition: background-color, color, box-shadow var(--animation), -webkit-box-shadow var(--animation);
 }
 
 .btn:hover, .btn:focus {
   cursor: pointer;
   background-color: var(--accent-text-color);
   color: var(--header-background-color);
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
