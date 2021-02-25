@@ -3,6 +3,11 @@
 .third-section {
   padding-top: 0px;
   padding-bottom: 79px;
+
+  & .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /* Чем мы занимаемся */

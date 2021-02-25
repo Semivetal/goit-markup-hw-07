@@ -3,6 +3,11 @@
 .second-section {
   padding-top: 79px;
   padding-bottom: 79px;
+
+  & .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .strengths-position {
